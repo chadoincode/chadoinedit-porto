@@ -1,11 +1,14 @@
 ---
 import YoutubePlayer from './atoms/YoutubePlayer'
+import '../styles/style.css'
+import Introduction from './organisms/Introduction'
 ---
 
 <div>
-	<YoutubePlayer
+	<!-- <YoutubePlayer
 		videoId='LltGZl4L0jA?si=MKms3lZrRLWyx9yB'
-	/>
+	/> -->
+	<Introduction client:visible />
 </div>
 <!-- // <div id="container">
 // 	<img id="background" src={background.src} alt="" fetchpriority="high" />

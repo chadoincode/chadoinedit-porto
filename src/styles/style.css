@@ -1,1 +1,18 @@
-@import tailwindcss;
+@import "tailwindcss";
+
+@theme{
+  --color-dark-purple: #272033;
+  --color-light: #FDFDF5;
+  --color-hover-card: #3B2F45;
+}
+
+*{
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body{
+  font-family: Dongle;
+  background-color: var(--color-dark-purple);
+}
