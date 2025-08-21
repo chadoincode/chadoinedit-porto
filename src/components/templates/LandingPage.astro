@@ -4,15 +4,21 @@ import '../../styles/style.css'
 import Introduction from '../organisms/Introduction'
 import Header from '../organisms/Header'
 import Projects from '../organisms/Projects'
+import Footer from '../organisms/Footer'
 ---
 
 <div>
-	<Header />
+	<header>
+		<Header />
+	</header>
 	<!-- <YoutubePlayer
 		videoId='LltGZl4L0jA?si=MKms3lZrRLWyx9yB'
 	/> -->
 	<Introduction client:visible />
 	<Projects />
+	<footer>
+		<Footer client:visible/>
+	</footer>
 </div>
 <!-- // <div id="container">
 // 	<img id="background" src={background.src} alt="" fetchpriority="high" />
