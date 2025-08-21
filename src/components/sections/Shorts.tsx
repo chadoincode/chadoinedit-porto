@@ -1,20 +1,16 @@
-import YoutubePlayer from "../atoms/YoutubePlayer";
+import ShortsPlayer from "../atoms/ShortsPlayer";
 import { videos } from "../../datas/VideosData";
 import ScrollAnimation from "../animations/ScrollAnimation";
 
-const Longform = () => {
-  const longformVideos = videos.filter((video) => video.type == "longform")
-  const transition = {
-    duration: -2,
-    ease: []
-  }
+const Shorts = () => {
+  const shortsVideo = videos.filter((video) => video.type == "shorts")
   return(
     <div>
-      <div className="flex gap-4 ">
+      <div className="flex gap-4">
         {
-          longformVideos.map((video, index) => (
+          shortsVideo.map((video, index) => (
             <ScrollAnimation key={index}>
-              <YoutubePlayer 
+              <ShortsPlayer 
                 videoId={video.videoId}
                 key={index}
               />
@@ -26,4 +22,4 @@ const Longform = () => {
   )
 }
 
-export default Longform
+export default Shorts

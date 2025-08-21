@@ -1,15 +1,15 @@
 type ButtonProps = {
   text: string
-  link: string
+  href: string
+  children?: string
 }
 
-const Button = ({ text, link }: ButtonProps) => {
+const Button = ({ text, href, children }: ButtonProps) => {
   return(
-    <div className="cursor-pointer bg-purple-500 p-2 rounded-2xl">
-      <a href={link} target="_blank" title={text}>
-        <p className="text-2xl">{text}</p>
-      </a>
-    </div>
+     <a href={href} target="_blank" title={text} className="p-2 bg-hover-card w-fit rounded-lg cursor-pointer text-2xl text-white">
+      {children}
+      <p>{text}</p>
+    </a>
   )
 }
 

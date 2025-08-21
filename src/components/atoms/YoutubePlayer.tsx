@@ -6,8 +6,9 @@ type YoutubePlayerProps = {
 
 const YoutubePlayer = ({ videoId}: YoutubePlayerProps) => {
   return(
-    <div>
+    <div className="rouned-lg ">
       <iframe 
+        className="rounded-lg shadow-lg"
         // className="w-1920 h-1080"
         width={"560"}
         height={"315"}

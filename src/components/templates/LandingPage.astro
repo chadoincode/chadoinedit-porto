@@ -7,19 +7,18 @@ import Projects from '../organisms/Projects'
 import Footer from '../organisms/Footer'
 ---
 
-<div>
-	<header>
-		<Header />
-	</header>
-	<!-- <YoutubePlayer
-		videoId='LltGZl4L0jA?si=MKms3lZrRLWyx9yB'
-	/> -->
-	<Introduction client:visible />
-	<Projects />
-	<footer>
-		<Footer client:visible/>
-	</footer>
-</div>
+<!-- <header>
+	<Header />
+</header> -->
+<!-- <YoutubePlayer
+	videoId='LltGZl4L0jA?si=MKms3lZrRLWyx9yB'
+/> -->
+<Introduction client:load />
+<Projects client:load />
+<footer>
+	<Footer client:load />
+</footer>
+
 <!-- // <div id="container">
 // 	<img id="background" src={background.src} alt="" fetchpriority="high" />
 // 	<main>
