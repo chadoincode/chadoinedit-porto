@@ -9,19 +9,17 @@ const Longform = () => {
     ease: []
   }
   return(
-    <div>
-      <div className="flex gap-4 ">
-        {
-          longformVideos.map((video, index) => (
-            <ScrollAnimation key={index}>
-              <YoutubePlayer 
-                videoId={video.videoId}
-                key={index}
-              />
-            </ScrollAnimation>
-          ))
-        }
-      </div>
+    <div className="flex gap-4 m-3">
+      {
+        longformVideos.map((video, index) => (
+          <ScrollAnimation key={index}>
+            <YoutubePlayer 
+              videoId={video.videoId}
+              key={index}
+            />
+          </ScrollAnimation>
+        ))
+      }
     </div>
   )
 }

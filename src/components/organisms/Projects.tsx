@@ -9,28 +9,34 @@ const Projects = () => {
     <div id="projects" className="border-2 mt-5 flex flex-col items-center p-3 text-light">
       <ScrollAnimation>
         <div className="flex-col place-items-center text-light m-3">
-          <h1 className="text-5xl text-center font-semibold">Projects</h1>
-          <p className="text-2xl">Contains all of my works!</p>
+          <h1 className="text-3xl text-center font-medium">Projects</h1>
+          <p className="text-md">Contains all of my works!</p>
         </div>
       </ScrollAnimation>
       <ScrollAnimation>
-        <h1 className="text-4xl text-center">My Recent Works</h1>
-        <Recent />
+        <section className="border-2 m-2 p-3" id="recent">
+          <h1 className="text-2xl text-center font-medium">My Recent Works</h1>
+          <Recent />
+        </section>
       </ScrollAnimation>
-      <section id="recent">
-      </section>
-        <ScrollAnimation>
-          <h1 className="text-4xl text-center">Motion Graphics</h1>
+      <ScrollAnimation>
+        <section className="border-2 m-2 p-3" id="mograph">
+          <h1 className="text-2xl text-center font-medium">Motion Graphics</h1>
           <Mograph />
-        </ScrollAnimation>
-      <section>
-        <h1 className="text-4xl text-center">Longform Videos</h1>
-        <Longform />
-      </section>
-      <section id="shorts">
-        <h1 className="text-4xl text-center">Shorts</h1>
-        <Shorts />
-      </section>
+        </section>
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <section className="border-2 m-2 p-3" id="longform">
+          <h1 className="text-2xl text-center font-medium">Longform Videos</h1>
+          <Longform />
+        </section>
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <section className="border-2 m-2 p-3" id="shorts">
+          <h1 className="text-2xl text-center font-medium">Shorts</h1>
+          <Shorts />
+        </section>
+      </ScrollAnimation>
     </div>
   )
 }

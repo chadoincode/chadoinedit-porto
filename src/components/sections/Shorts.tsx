@@ -5,7 +5,6 @@ import ScrollAnimation from "../animations/ScrollAnimation";
 const Shorts = () => {
   const shortsVideo = videos.filter((video) => video.type == "shorts")
   return(
-    <div>
       <div className="flex gap-4">
         {
           shortsVideo.map((video, index) => (
@@ -18,7 +17,6 @@ const Shorts = () => {
           ))
         }
       </div>
-    </div>
   )
 }
 

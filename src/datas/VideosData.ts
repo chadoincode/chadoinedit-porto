@@ -19,6 +19,16 @@ export const videos = [
     videoId: "diGHEyqg4U8",
     type: "shorts"
   },
+  {
+    title: "jokes pagi hari",
+    videoId: "diGHEyqg4U8",
+    type: "shorts"
+  },
+  {
+    title: "jokes pagi hari",
+    videoId: "diGHEyqg4U8",
+    type: "shorts"
+  },
   
 ]
 
