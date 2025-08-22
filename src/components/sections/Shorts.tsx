@@ -5,7 +5,7 @@ import ScrollAnimation from "../animations/ScrollAnimation";
 const Shorts = () => {
   const shortsVideo = videos.filter((video) => video.type == "shorts")
   return(
-      <div className="flex gap-4">
+      <div className="flex flex-col gap-4 sm:grid sm:grid-cols-4 lg:gap-3 m-3">
         {
           shortsVideo.map((video, index) => (
             <ScrollAnimation key={index}>

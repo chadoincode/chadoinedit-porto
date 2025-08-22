@@ -15,20 +15,14 @@ export const videos = [
     type: "recent"
   },
   {
-    title: "jokes pagi hari",
-    videoId: "diGHEyqg4U8",
-    type: "shorts"
+    title: "turnamen nyoman oji",
+    videoId:"m7tGVEVDaP8?si=fyoxxGdRTbG1tZB_",
+    type: "longform"
   },
   {
     title: "jokes pagi hari",
     videoId: "diGHEyqg4U8",
     type: "shorts"
-  },
-  {
-    title: "jokes pagi hari",
-    videoId: "diGHEyqg4U8",
-    type: "shorts"
-  },
-  
+  },  
 ]
 
