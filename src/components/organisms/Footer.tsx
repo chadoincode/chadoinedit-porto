@@ -1,7 +1,7 @@
 const Footer = () => {
   return(
     <div className="text-light text-lg flex justify-center p-10">
-      <p>Created with 💻, 🧋, and 💜 by <a href="https://github.com/chadoincode" className="underline">chadoincode</a></p>
+      <p>Created by <a href="https://www.youtube.com/@sgxwraa" target="_blank" className="underline">sgxwraa</a></p>
     </div>
   )
 }

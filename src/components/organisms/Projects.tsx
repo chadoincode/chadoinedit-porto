@@ -14,25 +14,25 @@ const Projects = () => {
         </div>
       </ScrollAnimation>
       <ScrollAnimation>
-        <section className="m-2 p-3" id="recent">
+        <section className="hover:shadow-2xl m-2 p-3 transition-transform duration-200 hover:scale-105" id="recent">
           <h1 className="text-2xl text-center font-medium">My Recent Works</h1>
           <Recent />
         </section>
       </ScrollAnimation>
       {/* <ScrollAnimation>
-        <section className="m-2 p-3" id="mograph">
+        <section className="m-2 p-3 transition-transform duration-200 hover:scale-105" id="mograph">
           <h1 className="text-2xl text-center font-medium">Motion Graphics</h1>
           <Mograph />
         </section>
       </ScrollAnimation> */}
       <ScrollAnimation>
-        <section className="m-2 p-3" id="longform">
+        <section className="rounded-lg shadow-2xl m-2 p-3" id="longform">
           <h1 className="text-2xl text-center font-medium">Longform Videos</h1>
           <Longform />
         </section>
       </ScrollAnimation>
       <ScrollAnimation>
-        <section className="border-2 m-2 p-3" id="shorts">
+        <section className="rounded-lg shadow-2xl m-2 p-3" id="shorts">
           <h1 className="text-2xl text-center font-medium">Shorts</h1>
           <Shorts />
         </section>
