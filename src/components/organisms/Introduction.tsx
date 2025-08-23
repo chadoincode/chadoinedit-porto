@@ -21,7 +21,6 @@ const Introduction = () => {
               <Button href='https://www.tiktok.com/@sgxwraa' text="TikTok" />
               <Button href='https://www.discordapp.com/users/371371904889651201' text="Discord" />
               <Button href='https://www.youtube.com/@sgxwraa' text="YouTube" />
-              <Button href='https://www.instagram.com/xkaguma' text="Email" />
             </div>
           </div>
         </div>

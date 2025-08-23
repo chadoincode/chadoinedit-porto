@@ -24,5 +24,10 @@ export const videos = [
     videoId: "diGHEyqg4U8",
     type: "shorts"
   },  
+  {
+    title: "jokes bapack bapack",
+    videoId: "unnjk9T0BVU",
+    type: "shorts"
+  },  
 ]
 

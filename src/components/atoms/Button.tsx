@@ -6,7 +6,7 @@ type ButtonProps = {
 
 const Button = ({ text, href, children }: ButtonProps) => {
   return(
-     <a href={href} target="_blank" title={text} className="p-2 bg-hover-card w-fit rounded-lg cursor-pointer text-sm md:text-md text-white">
+     <a href={href} target="_blank" title={text} className="p-2 bg-hover-card w-fit rounded-lg cursor-pointer text-sm md:text-lg text-white">
       {children}
       <p>{text}</p>
     </a>

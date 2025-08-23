@@ -19,12 +19,12 @@ const Projects = () => {
           <Recent />
         </section>
       </ScrollAnimation>
-      <ScrollAnimation>
+      {/* <ScrollAnimation>
         <section className="m-2 p-3" id="mograph">
           <h1 className="text-2xl text-center font-medium">Motion Graphics</h1>
           <Mograph />
         </section>
-      </ScrollAnimation>
+      </ScrollAnimation> */}
       <ScrollAnimation>
         <section className="m-2 p-3" id="longform">
           <h1 className="text-2xl text-center font-medium">Longform Videos</h1>
