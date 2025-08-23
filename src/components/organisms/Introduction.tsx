@@ -7,7 +7,7 @@ const Introduction = () => {
   return(
     <div className="py-30 bg-hover-card">
       <FadeIn delay={0.2}>
-        <div className="flex flex-col items-center ">
+        <div className="flex flex-col items-center">
           <Profile profileSrc={PhotoProfile.src} />
           <div className="p-5 justify-center"> 
             <h1 className="text-light text-lg md:text-2xl text-center font-medium py-3">Hi! I'm <u>sgxwraa/cha</u></h1>
