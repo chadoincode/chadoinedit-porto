@@ -6,9 +6,10 @@ import FadeIn from "../animations/FadeIn"
 const Introduction = () => {
   return(
     <FadeIn delay={0.2}>
-      <div className="flex flex-col items-center py-40 bg-hover-card">
+      <div className="flex flex-col items-center py-30 bg-hover-card">
         <Profile profileSrc={PhotoProfile.src} />
         <div className="p-5 justify-center"> 
+          <h1 className="text-light text-lg md:text-2xl text-center font-medium py-3">Hi! I'm <u>sgxwraa/cha</u></h1>
           <h1 className="text-light text-lg md:text-2xl text-center font-medium">Known as <u>cha</u> — A Video Editor & Motion Graphics Enthusiast</h1>
           <div className="p-5 md:p-3 text-center">
             <p className="text-light text-md md:text-2xl">I enjoy editing various types of videos, I especially like to working on longform, shorts, and motion graphics.</p>
