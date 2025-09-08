@@ -29,5 +29,14 @@ export const videos = [
     videoId: "unnjk9T0BVU",
     type: "shorts"
   },  
+  {
+    title: "mc kalah dulu",
+    videoId: "jszhy1HbkMs",
+    type: "shorts"
+  },
+  {
+    title: "guma peak",
+    videoId:"2Eh52dZnSuo",
+    type: "shorts"
+  }
 ]
-
