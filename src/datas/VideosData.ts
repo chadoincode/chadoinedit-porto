@@ -5,14 +5,14 @@ export const videos = [
     type: "longform"
   },
   {
+    title: "challenge eles",
+    videoId: "pmrkdqBSAFo?si=41f0E9yC7SgpBIzU",
+    type: "recent"
+  },
+  {
     title: "Tomodaki in Bali",
     videoId: "CfBtjiNjGBA?si=Zt4wlAOaEmDEC83g",
     type:"mograph"
-  },
-  {
-    title: "turnamen nyoman oji",
-    videoId:"m7tGVEVDaP8?si=fyoxxGdRTbG1tZB_",
-    type: "recent"
   },
   {
     title: "turnamen nyoman oji",
