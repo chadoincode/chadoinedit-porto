@@ -20,8 +20,8 @@ export const videos = [
     type: "longform"
   },
   {
-    title: "jokes pagi hari",
-    videoId: "diGHEyqg4U8",
+    title: "ga rispek",
+    videoId: "2w5v5apoNHs",
     type: "shorts"
   },  
   {
@@ -40,3 +40,4 @@ export const videos = [
     type: "shorts"
   }
 ]
+

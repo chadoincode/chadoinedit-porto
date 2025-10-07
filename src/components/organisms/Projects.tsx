@@ -15,7 +15,7 @@ const Projects = () => {
       </ScrollAnimation>
       <ScrollAnimation>
         <section className="hover:shadow-2xl m-2 p-3 transition-transform duration-200 hover:scale-105" id="recent">
-          <h1 className="text-2xl text-center font-medium">My Recent Works</h1>
+          <h1 className="text-2xl text-center font-medium">Featured Works</h1>
           <Recent />
         </section>
       </ScrollAnimation>
