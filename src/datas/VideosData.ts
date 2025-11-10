@@ -25,19 +25,20 @@ export const videos = [
     type: "shorts"
   },  
   {
+    title: "satu kebaikan, tumbuh kebaikan lainnya",
+    videoId: "T6Lxz2iDpeE",
+    type: "shorts"
+  },
+  {
     title: "jokes bapack bapack",
     videoId: "unnjk9T0BVU",
     type: "shorts"
   },  
-  {
-    title: "mc kalah dulu",
-    videoId: "jszhy1HbkMs",
-    type: "shorts"
-  },
   {
     title: "guma peak",
     videoId:"2Eh52dZnSuo",
     type: "shorts"
   }
 ]
+
 
