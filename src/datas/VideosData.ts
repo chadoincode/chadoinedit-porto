@@ -29,15 +29,30 @@ export const videos = [
     videoId: "T6Lxz2iDpeE",
     type: "shorts"
   },
+  // {
+  //   title: "jokes bapack bapack",
+  //   videoId: "unnjk9T0BVU",
+  //   type: "shorts"
+  // },  
+  // {
+  //   title: "guma peak",
+  //   videoId:"2Eh52dZnSuo",
+  //   type: "shorts"
+  // },
   {
-    title: "jokes bapack bapack",
-    videoId: "unnjk9T0BVU",
-    type: "shorts"
-  },  
+    title: "tutor ngedit",
+    videoId: "DQ0vAobAA6V",
+    type: "reels"
+  },
   {
-    title: "guma peak",
-    videoId:"2Eh52dZnSuo",
-    type: "shorts"
+    title: "penyakit anchor point",
+    videoId: "DRawpUTAJGe",
+    type: "reels"
+  },
+  {
+    title: "tutor ngedit sfx",
+    videoId: "DReS2FQgM3A",
+    type: "reels"
   }
 ]
 

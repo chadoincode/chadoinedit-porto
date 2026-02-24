@@ -1,16 +1,15 @@
-import ShortsPlayer from "../atoms/ShortsPlayer";
 import { videos } from "../../datas/VideosData";
 import ScrollAnimation from "../animations/ScrollAnimation";
 import ReelsPlayer from "../atoms/ReelsPlayer";
 
-const Shorts = () => {
-  const shortsVideo = videos.filter((video) => video.type == "shorts")
+const Reels = () => {
+  const reelsVideo = videos.filter((video) => video.type == "reels")
   return(
       <div className="sm:flex sm:flex-row gap-4 grid grid-cols-2 sm:grid-cols-4 lg:gap-3 m-3">
         {
-          shortsVideo.map((video, index) => (
+          reelsVideo.map((video, index) => (
             <ScrollAnimation key={index}>
-              <ShortsPlayer 
+              <ReelsPlayer
                 videoId={video.videoId}
                 key={index}
               />
@@ -21,4 +20,4 @@ const Shorts = () => {
   )
 }
 
-export default Shorts
+export default Reels

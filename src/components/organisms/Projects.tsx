@@ -3,6 +3,7 @@ import Mograph from "../sections/Mograph"
 import Longform from "../sections/Longform"
 import ScrollAnimation from "../animations/ScrollAnimation"
 import Shorts from "../sections/Shorts"
+import Reels from "../sections/Reels"
 
 const Projects = () => {
   return(
@@ -35,6 +36,12 @@ const Projects = () => {
         <section className="rounded-lg shadow-2xl m-2 p-3" id="shorts">
           <h1 className="text-2xl text-center font-medium">Shorts</h1>
           <Shorts />
+        </section>
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <section className="rounded-lg shadow-2xl m-2 p-3" id="shorts">
+          <h1 className="text-2xl text-center font-medium">Reels</h1>
+          <Reels />
         </section>
       </ScrollAnimation>
     </div>
