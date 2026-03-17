@@ -1,23 +1,8 @@
 export const videos = [
   {
-    title: "challenge eles",
-    videoId: "pmrkdqBSAFo?si=41f0E9yC7SgpBIzU",
-    type: "longform"
-  },
-  {
-    title: "challenge eles",
-    videoId: "pmrkdqBSAFo?si=41f0E9yC7SgpBIzU",
-    type: "recent"
-  },
-  {
     title: "Tomodaki in Bali",
     videoId: "CfBtjiNjGBA?si=Zt4wlAOaEmDEC83g",
     type:"mograph"
-  },
-  {
-    title: "turnamen nyoman oji",
-    videoId:"m7tGVEVDaP8?si=fyoxxGdRTbG1tZB_",
-    type: "longform"
   },
   {
     title: "ga rispek",
@@ -29,16 +14,6 @@ export const videos = [
     videoId: "T6Lxz2iDpeE",
     type: "shorts"
   },
-  // {
-  //   title: "jokes bapack bapack",
-  //   videoId: "unnjk9T0BVU",
-  //   type: "shorts"
-  // },  
-  // {
-  //   title: "guma peak",
-  //   videoId:"2Eh52dZnSuo",
-  //   type: "shorts"
-  // },
   {
     title: "tutor ngedit",
     videoId: "DQ0vAobAA6V",
@@ -53,6 +28,16 @@ export const videos = [
     title: "tutor ngedit sfx",
     videoId: "DReS2FQgM3A",
     type: "reels"
+  },
+  {
+    title: "guma review takjil",
+    videoId: "1E9fIstJ3iM?si=4gEOLwJrYjWG1cM6",
+    type: "longform"
+  },
+  {
+    title: "guma review takjil",
+    videoId: "1E9fIstJ3iM?si=4gEOLwJrYjWG1cM6",
+    type: "recent"
   }
 ]
 
