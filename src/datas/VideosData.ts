@@ -4,16 +4,16 @@ export const videos = [
     videoId: "CfBtjiNjGBA?si=Zt4wlAOaEmDEC83g",
     type:"mograph"
   },
-  {
-    title: "ga rispek",
-    videoId: "2w5v5apoNHs",
-    type: "shorts"
-  },  
-  {
-    title: "satu kebaikan, tumbuh kebaikan lainnya",
-    videoId: "T6Lxz2iDpeE",
-    type: "shorts"
-  },
+  // {
+  //   title: "ga rispek",
+  //   videoId: "2w5v5apoNHs",
+  //   type: "shorts"
+  // },  
+  // {
+  //   title: "satu kebaikan, tumbuh kebaikan lainnya",
+  //   videoId: "T6Lxz2iDpeE",
+  //   type: "shorts"
+  // },
   {
     title: "tutor ngedit",
     videoId: "DQ0vAobAA6V",
@@ -35,10 +35,25 @@ export const videos = [
     type: "longform"
   },
   {
-    title: "guma review takjil",
-    videoId: "1E9fIstJ3iM?si=4gEOLwJrYjWG1cM6",
+    title: "guma review outfit lebaran",
+    videoId: "K3GQXI1eN-c?si=JeZ6gk-GtTLqmKIk",
+    type: "longform"
+  },
+  {
+    title: "guma siren head",
+    videoId: "jkUMS8z8Mmw?si=tA_tq8GI1yVjg1C_",
+    type: "longform"
+  },
+  // {
+  //   title: "guma siren head",
+  //   videoId: "jkUMS8z8Mmw?si=tA_tq8GI1yVjg1C_",
+  //   type: "longform"
+  // },
+  {
+    title: "guma siren head",
+    videoId: "jkUMS8z8Mmw?si=tA_tq8GI1yVjg1C_",
     type: "recent"
-  }
+  },
 ]
 
 

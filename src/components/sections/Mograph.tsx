@@ -5,8 +5,8 @@ const Mograph = () => {
   const mographVideos = videos.filter((video) => video.type == "mograph")
 
   return(
-    <div>
-      <div className="flex gap-4 m-3">
+    <div className="m-3">
+      <div className="flex flex-wrap justify-center gap-3 md:gap-4">
         {
           mographVideos.map((video, index) => (
             <YoutubePlayer 

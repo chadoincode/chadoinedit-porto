@@ -5,8 +5,8 @@ const Recent = () => {
   const recentVideos = videos.filter((video) => video.type == "recent")
 
   return(
-    <div>
-      <div className="flex gap-4 m-3">
+    <div className="m-3">
+      <div className="flex flex-wrap justify-center gap-3 md:gap-4">
         {
           recentVideos.map((video, index) => (
             <YoutubePlayer 

@@ -23,11 +23,12 @@ const ReelsPlayer = ({ videoId, title }: ReelsPlayerProps) => {
   }, [])
 
   return (
-    <div className="rounded-lg max-w-[540px] mx-auto">
+    <div className="w-full max-w-[220px] sm:max-w-[260px] md:max-w-[300px] lg:max-w-[360px] mx-auto rounded-lg overflow-hidden">
       <blockquote
-        className="instagram-media"
+        className="instagram-media !w-full !max-w-full"
         data-instgrm-permalink={`https://www.instagram.com/reel/${videoId}/`}
         data-instgrm-version="14"
+        style={{ width: "100%", maxWidth: "100%" }}
       />
       {title && (
         <p className="text-center mt-2 text-sm text-gray-500">{title}</p>
