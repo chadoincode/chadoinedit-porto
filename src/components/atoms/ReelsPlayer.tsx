@@ -23,7 +23,7 @@ const ReelsPlayer = ({ videoId, title }: ReelsPlayerProps) => {
   }, [])
 
   return (
-    <div className="w-full max-w-[220px] sm:max-w-[260px] md:max-w-[300px] lg:max-w-[360px] mx-auto rounded-lg overflow-hidden">
+    <div className="w-full max-w-[326px] sm:max-w-[360px] md:max-w-[300px] lg:max-w-[360px] mx-auto rounded-lg overflow-hidden">
       <blockquote
         className="instagram-media !w-full !max-w-full"
         data-instgrm-permalink={`https://www.instagram.com/reel/${videoId}/`}

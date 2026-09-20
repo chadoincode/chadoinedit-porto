@@ -1,5 +1,5 @@
 import Recent from "../sections/Recent"
-import Mograph from "../sections/Mograph"
+// import Mograph from "../sections/Mograph"
 import Longform from "../sections/Longform"
 import ScrollAnimation from "../animations/ScrollAnimation"
 import Shorts from "../sections/Shorts"

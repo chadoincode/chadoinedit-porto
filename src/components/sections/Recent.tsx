@@ -1,8 +1,8 @@
 import YoutubePlayer from "../atoms/YoutubePlayer";
-import { videos } from "../../datas/VideosData";
+import { longformData } from "../../datas/LongformData";
 
 const Recent = () => {
-  const recentVideos = videos.filter((video) => video.type == "recent")
+  const recentVideos = longformData.filter((video) => video.type == "recent")
 
   return(
     <div className="m-3">

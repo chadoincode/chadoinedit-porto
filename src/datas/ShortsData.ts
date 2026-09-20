@@ -7,4 +7,12 @@ export const shortsData = [
     title: "satu kebaikan, tumbuh kebaikan lainnya",
     videoId: "T6Lxz2iDpeE",
   },
+  {
+    title: "got talent 1",
+    videoId: "1oTHmxlB75A", 
+  },
+  {
+    title: "got talent 2",
+    videoId: "YzMiiZ9_KEc", 
+  },
 ]

@@ -1,9 +1,9 @@
 import YoutubePlayer from "../atoms/YoutubePlayer";
-import { videos } from "../../datas/VideosData";
+import { longformData } from "../../datas/LongformData";
 import ScrollAnimation from "../animations/ScrollAnimation";
 
 const Longform = () => {
-  const longformVideos = videos.filter((video) => video.type === "longform")
+  const longformVideos = longformData.filter((long) => long.type === "longform")
   const isThreeColumnLayout = longformVideos.length > 3
 
   return(
